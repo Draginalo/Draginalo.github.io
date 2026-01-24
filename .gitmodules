@@ -1,0 +1,7 @@
+[submodule "port-hugo"]
+	path = port-hugo, port-hugo/exampleSite/themes/port-hugo
+	url = https://github.com/tylersayshi/port-hugo
+
+[submodule "port-hugo/exampleSite/themes/port-hugo"]
+	path = port-hugo
+	url = https://github.com/tylersayshi/port-hugo
