@@ -86,3 +86,7 @@ link = "https://medium.com/@gusburton"
 contentDir = "content/english"
 weight = 1
 home = "Home"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
