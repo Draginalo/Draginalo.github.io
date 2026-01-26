@@ -49,7 +49,7 @@
           {{ range .experience_list }}
           {{ if not (eq .enable false) }}
             <li class="experience-item" style="--color: {{.color}}">
-              <div class="single-experience">
+              <div class="single-experience" style="white-space: pre-line;">
                 <h3>{{ .name | markdownify }}</h3>
                 {{ with .technology }}
                 <span>{{ . | markdownify }} |</span>
@@ -76,7 +76,7 @@
           {{ range .experience_list }}
           {{ if not (eq .enable false) }}
             <li class="experience-item" style="--color: {{.color}}">
-              <div class="single-experience" style="margin-right: 8%;">
+              <div class="single-experience" style="margin-right: 8%; white-space: pre-line;">
                 <h3>{{ .name | markdownify }}</h3>
                 {{ with .technology }}
                 <span>{{ . | markdownify }} |</span>
