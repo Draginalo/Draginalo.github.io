@@ -1,15 +1,15 @@
 ########################## hero area ##########################
 hero:
-  title: "I'm Burton Guster"
+  title: "Hi! I'm Tristan Schonfeldt-Aultman"
 
   # animated text loop
   occupations:
-    - 'Web Developer'
-    - 'Pharmaceutical Salesman'
-    - 'Private Detective'
+    - 'Game Developer'
+    - 'Graphics Programmer'
+    - 'Systems Programmer'
 
   # hero background image
-  bg_image: 'images/background.jpg'
+  bg_image: 'images/bg.jpg'
   # optional mobile breakpoint background
   mobile_bg_image: 'images/gus_small.jpg'
 
