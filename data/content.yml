@@ -1,6 +1,7 @@
 ########################## hero area ##########################
 hero:
-  title: "Hi! I'm Tristan Schonfeldt-Aultman"
+  title: "Hi!"
+  subTitle: "I'm Tristan Schonfeldt-Aultman"
 
   # animated text loop
   occupations:
@@ -17,12 +18,12 @@ hero:
 about:
   enable: true
   image: 'images/profile.jpg'
-  title: 'THIS IS ME'
-  content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
+  title: 'Hey there!'
+  content: Having a passion for game development, programming, and just gaming in general, I am eager to create gaming experiences for people to enjoy as I pursue a BS in Game Programming at Champlain College, as well as a double minor in Mathematics and CSI. I began studying programming in my junior year of high school and ever since then I have been doing my best to be as knowledgeable and confident in the area as I can be. I am also on the Splatoon Esports team for Champlain College and have a fondness for mountain biking, as well as other outdoor activities. If you have any questions feel free to reach out on [LinkedIn or by email](#contact)!
   button:
     enable: true
     label: 'DOWNLOAD MY RESUME'
-    link: #
+    link: "resume.pdf"
     icon: 'fa-download'
 
 ###########################3 Experience ##############################
@@ -30,20 +31,62 @@ experience:
   enable: true
   title: 'EXPERIENCE'
   experience_list:
-    - name: Web Developer
-      company: Freelance
-      duration: '2020-Current'
-      content: I make websites.
+    - name: Game Programming Tutor
+      company: Champlain College
+      duration: '2025-Current'
+      content: Guide students through programming concepts, ranging from data structures and algorithms to graphics programming to game physics, to help facilitate their learning (C++ and C# focused).
+      image: 'images/profile.jpg'
+      color: '#00ff66'
 
-    - name: Private Detective
-      company: Psych
-      duration: '2019-2020'
-      content: Okay. This is hard to explain but I’m going to give it a shot. You and I are opening our own private detective agency.
+    - name: Startup Full Stack Engineer
+      company: EQ Community
+      duration: '2023-2025'
+      content: Collaborated with the CEO to program innovative, human in the loop, AI based (LLMs) recruiting tools. Launched multiple products using Typescript, Node.js, and Vercel, while onboarding multiple new developers. Managed APIs and databases, as well as created analytics tools in python.
+      image: 'images/profile.jpg'
+      color: '#aa00ff'
 
-    - name: Pharmaceutical Salesman
-      company: South Coast Pharmaceuticals
-      duration: '2012-2018'
-      content: We are not bounty hunters, Shawn. I am a pharmaceutical salesman. And Lassiter made it very clear! He said in no uncertain terms. These are certain terms, Shawn! Certain terms!
+    - name: Programming Intern
+      company: Leahy Center for Digital Forensics & Cyber Security
+      duration: '2022'
+      content: Developed and maintained a seating chart web tool using Javascript on a small flexible team.
+      image: 'images/profile.jpg'
+      color: 'blue'
+
+###########################4 Projects ##############################
+projects:
+  enable: true
+  title: 'PROJECTS'
+  experience_list:
+    - name: Choo Choo Boom Boom
+      technology: Unity 
+      duration: '2025-Current'
+      content: "● Unique take on the on-rails shooter genre where you play as a gunner on a public defence team that has strapped a gun to a local train in order to fight a giant monster attacking your city.
+               \n● Worked on a team of 8 with majors in Game Design, Gamer Art, Sound Design, and Programming to create a game in one semester with the goal of getting our game Greenlit by our school's faculty and alumni.
+               \n● Designed and programmed a variety of systems, such as boss attacks and spline track systems, including track switching.
+               \n● Programmed object-space and screen-space shaders utilizing render targets and Unity's Scriptable Render Pipeline.
+               \n● Practiced Agile Scrum methodology, focusing on rapid iterative prototyping, incorporated twice a week gameplay/feature testing sessions.
+               \n● Handled onboarding of 6 new developers (Art, Programming, Design) after passing Greenlight."
+      video: 'videos/CCBBTrailer.mp4'
+      color: 'red'
+
+    - name: Touhou99
+      technology: Unity - GameNetworkingSockets - .NET
+      duration: 'Jan - May 2025'
+      content: "● On a team with 2 other programmers, programmed a Touhou inspired LAN multiplayer game where 99 people could join.
+               \n● Used Valve's GameNetworkingSockets and .NET.Sockets to program a core realtime networking system that stablished and maintained P2P UDP connections between computers, using a server/client framework.
+               \n● Integrated core networking into gameplay with visualization of other players in-game, networked inputs such as launching offensive bombs that can hurt other players, and a lobby system."
+      video: 'videos/ .mp4'
+      color: 'yellow'
+
+    - name: Lurking Below
+      technology: Unreal Engine 5
+      duration: 'Jan - May 2025'
+      content: "● Worked on a team with 7 others majoring in Game Design, Game Art, Sound Design, and Game Programming to make a 3 player multiplayer game in Unreal Engine in 12 weeks.
+                \n● A diver, who roams the sea floor, and an engineer, residing inside a submarine who also has to focus on fixing submarine issues, work together to fix underwater CRAB machines while a sea monster chases them down.
+                \n● Programmed multiplayer interactions with CRABs, shaders, gameplay, and sound implementation.
+                \n● Practiced Agile Scrum methodology, regularly peer tested features/gameplay, and focused on rapid iterative prototyping."
+      video: 'videos/ .mp4'
+      color: '#00ff99'
 
 ############################### Skill #################################
 skill:
@@ -82,7 +125,7 @@ funfacts:
 ############################# portfolio ################################
 portfolio:
   enable: true
-  title: 'MY WORK'
+  title: 'OTHER PROJECTS'
   portfolio_list:
     - name: Hugo
       image: 'images/portfolio/hugo.png'

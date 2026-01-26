@@ -6,50 +6,6 @@
     =============================== -->
 <section class="about-me" id="about">
   <div class="container">
-    <div class="row experience-skill">
-      {{ if .Site.Data.content.experience.enable }} {{ with
-      .Site.Data.content.experience }}
-      <div class="col-lg-6 col-sm-6 col-11 experience">
-        <h2>{{ .title }}</h2>
-        <ul class="experience-chart">
-          {{ range .experience_list }}
-          {{ if not (eq .enable false) }}
-            <li>
-              <div class="single-experience">
-                <h3>{{ .name | markdownify }}</h3>
-                {{ with .company }}
-                <span>{{ . | markdownify }} |</span>
-                {{ end }} {{ with .duration }}
-                <span>{{ . | markdownify }}</span>
-                {{ end }} {{ with .content }}
-                <p>{{ . | markdownify }}</p>
-                {{ end }}
-              </div>
-            </li>
-          {{ end }}
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }} {{ end }} {{ if .Site.Data.content.skill.enable }} {{ with
-      .Site.Data.content.skill }}
-      <div class="col-lg-6 col-sm-6 col-11 skill">
-        <h2>{{ .title }}</h2>
-        <div class="skill-progress-bar">
-          {{ range .skill_list }}
-          <div class="clearfix">
-            <span class="skillbar-title">{{ .name }}</span>
-            {{ if .Site.Data.content.skill.showpercent }}
-            <span class="skill-bar-percent">{{ .percentage }}</span>
-            {{ end }}
-            <div class="skillbar" data-percent="{{ .percentage }}">
-              <div class="skillbar-bar"></div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-      {{ end }} {{ end }}
-      
     {{ if .Site.Data.content.about.enable }} {{ with .Site.Data.content.about }}
     <div class="row about-me-holder">
       <div
@@ -69,6 +25,7 @@
             target="_blank"
             rel="noreferrer"
             class="button download-cv"
+            download="Tristan_"
           >
             {{ .label }} <i class="fa fa-download"></i
           ></a>
@@ -82,6 +39,65 @@
       {{ end }}
     </div>
     {{ end }} {{ end }}
+    
+    <div class="row experience-skill" style="display: block; margin: 0 auto; width: 100%; margin-bottom: 100px;">
+      {{ if .Site.Data.content.experience.enable }} {{ with
+      .Site.Data.content.experience }}
+      <div>
+        <h2>{{ .title }}</h2>
+        <ul class="experience-chart">
+          {{ range .experience_list }}
+          {{ if not (eq .enable false) }}
+            <li class="experience-item" style="--color: {{.color}}">
+              <div class="single-experience">
+                <h3>{{ .name | markdownify }}</h3>
+                {{ with .technology }}
+                <span>{{ . | markdownify }} |</span>
+                {{ end }} {{ with .duration }}
+                <span>{{ . | markdownify }}</span>
+                {{ end }} {{ with .content }}
+                <p>{{ . | markdownify }}</p>
+                {{ end }}
+              </div>
+            </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }} {{ end }}
+    </div>
+
+    <div class="row experience-skill" style="display: block; margin: 0 auto; width: 100%;">
+      {{ if .Site.Data.content.projects.enable }} {{ with
+      .Site.Data.content.projects }}
+      <div>
+        <h2>{{ .title }}</h2>
+        <ul class="experience-chart">
+          {{ range .experience_list }}
+          {{ if not (eq .enable false) }}
+            <li class="experience-item" style="--color: {{.color}}">
+              <div class="single-experience" style="margin-right: 8%;">
+                <h3>{{ .name | markdownify }}</h3>
+                {{ with .technology }}
+                <span>{{ . | markdownify }} |</span>
+                {{ end }} {{ with .duration }}
+                <span>{{ . | markdownify }}</span>
+                {{ end }} {{ with .content }}
+                <p>{{ . | markdownify }}</p>
+                {{ end }}
+              </div>
+              <div class="single-experience" style="display: flex; align-items: center;">
+                <!--class="img-fluid"-->
+                <video controls autoplay muted playsinline loop style="display: block; width: 100%;">
+                  <source src={{.video}} type="video/mp4">
+                </video>
+              </div>
+            </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }} {{ end }}
     </div>
   </div>
 </section>
@@ -117,7 +133,7 @@
         {{ range .portfolio_list }} {{ $image := resources.Get .image }} {{
         $big_image := $image.Fill "780x500 jpg" }} {{ $sm_image := $image.Fill
         "395x250 jpg" }} {{ $parsed_name := replace .name "." "" }}
-        <li>
+        <li style="overflow-wrap: anywhere; width: 400px;">
           <p id="description-{{ $parsed_name | urlize }}" class="hidden">
             {{ .description | markdownify }}
           </p>
@@ -132,6 +148,7 @@
               alt="{{ $parsed_name }} image"
             />
           </a>
+          <h5>Tessadftyftdrseasrdtfyuytretsadsfdsasdyguitretfykjt</h5>
         </li>
         {{ end }}
       </ul>
