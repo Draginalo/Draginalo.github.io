@@ -9,7 +9,7 @@ hero:
     - 'Graphics Programmer'
     - 'Systems Programmer'
 
-  # hero background image
+  bg_anim: 'videos/BGEffect.mp4'
   bg_image: 'images/bg.jpg'
   # optional mobile breakpoint background
   mobile_bg_image: 'images/gus_small.jpg'
