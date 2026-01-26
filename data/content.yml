@@ -61,11 +61,11 @@ projects:
       technology: Unity 
       duration: '2025-Current'
       content: "● Unique take on the on-rails shooter genre where you play as a gunner on a public defence team that has strapped a gun to a local train in order to fight a giant monster attacking your city.
-               \n● Worked on a team of 8 with majors in Game Design, Gamer Art, Sound Design, and Programming to create a game in one semester with the goal of getting our game Greenlit by our school's faculty and alumni.
-               \n● Designed and programmed a variety of systems, such as boss attacks and spline track systems, including track switching.
-               \n● Programmed object-space and screen-space shaders utilizing render targets and Unity's Scriptable Render Pipeline.
-               \n● Practiced Agile Scrum methodology, focusing on rapid iterative prototyping, incorporated twice a week gameplay/feature testing sessions.
-               \n● Handled onboarding of 6 new developers (Art, Programming, Design) after passing Greenlight."
+               \n\n● Worked on a team of 8 with majors in Game Design, Gamer Art, Sound Design, and Programming to create a game in one semester with the goal of getting our game Greenlit by our school's faculty and alumni.
+               \n\n● Designed and programmed a variety of systems, such as boss attacks and spline track systems, including track switching.
+               \n\n● Programmed object-space and screen-space shaders utilizing render targets and Unity's Scriptable Render Pipeline.
+               \n\n● Practiced Agile Scrum methodology, focusing on rapid iterative prototyping, incorporated twice a week gameplay/feature testing sessions.
+               \n\n● Handled onboarding of 6 new developers (Art, Programming, Design) after passing Greenlight."
       video: 'videos/CCBBTrailer.mp4'
       color: 'red'
 
@@ -73,8 +73,8 @@ projects:
       technology: Unity - GameNetworkingSockets - .NET
       duration: 'Jan - May 2025'
       content: "● On a team with 2 other programmers, programmed a Touhou inspired LAN multiplayer game where 99 people could join.
-               \n● Used Valve's GameNetworkingSockets and .NET.Sockets to program a core realtime networking system that stablished and maintained P2P UDP connections between computers, using a server/client framework.
-               \n● Integrated core networking into gameplay with visualization of other players in-game, networked inputs such as launching offensive bombs that can hurt other players, and a lobby system."
+               \n\n● Used Valve's GameNetworkingSockets and .NET.Sockets to program a core realtime networking system that stablished and maintained P2P UDP connections between computers, using a server/client framework.
+               \n\n● Integrated core networking into gameplay with visualization of other players in-game, networked inputs such as launching offensive bombs that can hurt other players, and a lobby system."
       video: 'videos/ .mp4'
       color: 'yellow'
 
@@ -82,9 +82,9 @@ projects:
       technology: Unreal Engine 5
       duration: 'Jan - May 2025'
       content: "● Worked on a team with 7 others majoring in Game Design, Game Art, Sound Design, and Game Programming to make a 3 player multiplayer game in Unreal Engine in 12 weeks.
-                \n● A diver, who roams the sea floor, and an engineer, residing inside a submarine who also has to focus on fixing submarine issues, work together to fix underwater CRAB machines while a sea monster chases them down.
-                \n● Programmed multiplayer interactions with CRABs, shaders, gameplay, and sound implementation.
-                \n● Practiced Agile Scrum methodology, regularly peer tested features/gameplay, and focused on rapid iterative prototyping."
+                \n\n● A diver, who roams the sea floor, and an engineer, residing inside a submarine who also has to focus on fixing submarine issues, work together to fix underwater CRAB machines while a sea monster chases them down.
+                \n\n● Programmed multiplayer interactions with CRABs, shaders, gameplay, and sound implementation.
+                \n\n● Practiced Agile Scrum methodology, regularly peer tested features/gameplay, and focused on rapid iterative prototyping."
       video: 'videos/ .mp4'
       color: '#00ff99'
 
