@@ -811,7 +811,7 @@ input:checked + label span:last-child {
 }
 
 .experience-item {
-    display: flex;
+  display:flex;
 }
 
 .experience h3,
@@ -850,12 +850,12 @@ ul.experience-chart li:after {
   background: #fff;
   content: '';
   transition: all 0.7s;
-  box-shadow: 0 0 0px 0px #ffffff;
+  box-shadow: 0 0 0px 0px gray;
 }
 
 ul.experience-chart li:hover:after {
-  background: var(--color, #09ff00);
-  box-shadow: 0 0 10px 5px var(--color, #09ff00);
+  background: var(--color);
+  box-shadow: 0 0 10px 5px var(--color);
 }
 
 ul.experience-chart h4 {
@@ -1348,8 +1348,8 @@ ul.experience-chart h4 {
     margin-top: 10px;
   }
   .experience-item {
-        display: inline-block; 
-    }
+  display:inline-block;
+}
   .experience-chart,
   .skill-progress-bar {
     margin-top: 25px;
