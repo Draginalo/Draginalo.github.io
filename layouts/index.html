@@ -78,17 +78,16 @@
             <li class="experience-item" style="--color: {{.color}}">
               <div class="single-experience" style="margin-right: 8%; white-space: pre-line;">
                 <h3>{{ .name | markdownify }}</h3>
-                {{ with .technology }}
-                <span>{{ . | markdownify }} |</span>
-                {{ end }} {{ with .duration }}
+                <span>{{ .technology | markdownify }}</span>
+                {{ with .duration }}
                 <span>{{ . | markdownify }}</span>
                 {{ end }} {{ with .content }}
                 <p>{{ . | markdownify }}</p>
                 {{ end }}
               </div>
-              <div class="single-experience" style="display: flex; align-items: center;">
+              <div class="single-experience" style="display: flex; align-items: center; justify-content: center;">
                 <!--class="img-fluid"-->
-                <video controls autoplay muted playsinline loop style="display: block; width: 100%;">
+                <video controls autoplay muted playsinline loop style="display: block; width: 85%; padding-bottom: 50px;">
                   <source src={{.video}} type="video/mp4">
                 </video>
               </div>
