@@ -75,7 +75,7 @@
         <ul class="experience-chart">
           {{ range .experience_list }}
           {{ if not (eq .enable false) }}
-            <li class="experience-item" style="--color: {{.color}}">
+            <li class="project-item" style="--color: {{.color}}">
               <div class="single-experience" style="margin-right: 8%; white-space: pre-line;">
                 <h3>{{ .name | markdownify }}</h3>
                 <span>{{ .technology | markdownify }}</span>
@@ -87,7 +87,7 @@
               </div>
               <div class="single-experience" style="display: flex; align-items: center; justify-content: center;">
                 <!--class="img-fluid"-->
-                <video controls autoplay muted playsinline loop style="display: block; width: 85%; padding-bottom: 50px;">
+                <video controls autoplay muted playsinline loop style="display: block; width: 85%; padding-bottom: 50px; padding-top: 20px;">
                   <source src={{.video}} type="video/mp4">
                 </video>
               </div>

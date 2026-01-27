@@ -810,8 +810,12 @@ input:checked + label span:last-child {
   margin-top: 40px;
 }
 
-.experience-item {
+.project-item {
   display:inline-block;
+}
+
+.experience-item {
+  display:flex;
 }
 
 .experience h3,
@@ -1347,7 +1351,7 @@ ul.experience-chart h4 {
   .experience-skill {
     margin-top: 10px;
   }
-  .experience-item {
+  .project-item {
   display:inline-block;
 }
   .experience-chart,
