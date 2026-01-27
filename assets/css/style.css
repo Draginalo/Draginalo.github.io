@@ -811,7 +811,7 @@ input:checked + label span:last-child {
 }
 
 .experience-item {
-  display:flex;
+  display:inline-block;
 }
 
 .experience h3,
