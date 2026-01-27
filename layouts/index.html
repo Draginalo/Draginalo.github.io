@@ -51,9 +51,8 @@
             <li class="experience-item" style="--color: {{.color}}">
               <div class="single-experience" style="white-space: pre-line;">
                 <h3>{{ .name | markdownify }}</h3>
-                {{ with .technology }}
-                <span>{{ . | markdownify }} |</span>
-                {{ end }} {{ with .duration }}
+                <span>{{ .company | markdownify }}</span>
+                {{ with .duration }}
                 <span>{{ . | markdownify }}</span>
                 {{ end }} {{ with .content }}
                 <p>{{ . | markdownify }}</p>
