@@ -48,13 +48,12 @@ name = "Portfolio"
 URL = "#portfolio"
 weight = 3
 
-
 #################### default parameters ################################
 [params]
-copyright = "Copyright Burton Guster &copy;"
+copyright = "Copyright Tristan Schonfeldt-Aultman &copy;"
 # Meta data
-description = "Personal Portfolio"
-author = "Burton Guster"
+description = "Tristan Schonfeldt-Aultman's Portfolio"
+author = "Tristan Schonfeldt-Aultman"
 favicon = "images/favicon.png"
 google_analytics = "G-ABCDEFG123"
 logo_light = "images/logo.svg"
@@ -80,7 +79,7 @@ icon = "fas fa-envelope"
 link = "mailto:guster@burton.com"
 
 [[params.social]]
-icon = "fab fa-medium"
+icon = "fas fa-gamepad"
 link = "https://medium.com/@gusburton"
 
 contentDir = "content/english"

@@ -7,5 +7,19 @@
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heelo</title>
+      <link>http://localhost:1313/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/test/</guid>
+      <description>HIIII</description>
+    </item>
+    <item>
+      <title>Heelo</title>
+      <link>http://localhost:1313/test2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/test2/</guid>
+      <description>&lt;h1 id=&#34;summ&#34;&gt;Summ&lt;/h1&gt;</description>
+    </item>
   </channel>
 </rss>
