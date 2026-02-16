@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ partial "menu" . }}
+
+<div class="under-menu col-lg-8 col-md-10 col-12 mx-auto post-container">
+    <h1 style="padding-top: 100px; justify-self: center;">{{ .Title }}</h1>
+    <div class="body">
+        {{ .Content }}
+        <video controls autoplay muted playsinline loop style="display: block; width: 85%; padding-bottom: 50px; padding-top: 20px; justify-self: center;">
+            <source src={{.Params.video}} type="video/mp4">
+        </video>
+    </div>
+    <div class="single-experience" style="margin-right: 8%; white-space: pre-line;">
+        <h4>{{ .Params.technology }}</h4>
+        <h4>{{ .Params.duration }}</h5>
+        <p>{{ .Params.content }}</p>
+    </div>
+</div>
+
+{{ partial "footer" . }}
+{{ end }}

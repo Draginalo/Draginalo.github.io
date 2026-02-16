@@ -76,7 +76,7 @@
           {{ if not (eq .enable false) }}
             <li class="project-item" style="--color: {{.color}}">
               <div class="single-experience" style="margin-right: 8%; white-space: pre-line;">
-                <h3>{{ .name | markdownify }}</h3>
+                <a href={{.link}} style="color: black;"><h3>{{ .name | markdownify }}</h3></a>
                 <span>{{ .technology | markdownify }}</span>
                 {{ with .duration }}
                 <span>{{ . | markdownify }}</span>

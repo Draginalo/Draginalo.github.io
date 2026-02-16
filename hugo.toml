@@ -1,3 +1,13 @@
+# Source - https://stackoverflow.com/a/63206852
+# Posted by n m, modified by community. See post 'Timeline' for change history
+# Retrieved 2026-02-16, License - CC BY-SA 4.0
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
 ######################## default configuration ####################
 baseURL = "https://example.com"
 title = "Tristan Schonfeldt-Aultman"
@@ -44,13 +54,13 @@ URL = "https://draginalo.github.io#about"
 weight = 2
 
 [[menu.main]]
-name = "Projects"
-URL = "https://draginalo.github.io#projects"
+name = "Experience"
+URL = "https://draginalo.github.io#experience"
 weight = 3
 
 [[menu.main]]
-name = "Experience"
-URL = "https://draginalo.github.io#experience"
+name = "Projects"
+URL = "https://draginalo.github.io#projects"
 weight = 4
 
 #################### default parameters ################################
@@ -73,19 +83,19 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 [[params.social]]
 icon = "fab fa-github"
-link = "https://github.com/tylersayshi"
+link = "https://github.com/TristanS-A"
 
 [[params.social]]
 icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/"
+link = "https://www.linkedin.com/in/tristan-schonfeldt-aultman/"
 
 [[params.social]]
 icon = "fas fa-envelope"
-link = "mailto:guster@burton.com"
+link = "mailto:tropicaltisa@gmail.com"
 
 [[params.social]]
 icon = "fas fa-gamepad"
-link = "https://medium.com/@gusburton"
+link = "https://tristansa.itch.io/"
 
 contentDir = "content/english"
 weight = 1
