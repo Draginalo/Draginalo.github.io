@@ -34,19 +34,24 @@ link = "plugins/hugrid/hugrid.min.js"
 
 # main menu
 [[menu.main]]
-name = "About Me"
-URL = "#about"
+name = "Home"
+URL = "/"
 weight = 1
 
 [[menu.main]]
-name = "Projects"
-URL = "#projects"
+name = "About Me"
+URL = "http://localhost:1313#about"
 weight = 2
 
 [[menu.main]]
+name = "Projects"
+URL = "http://localhost:1313#projects"
+weight = 3
+
+[[menu.main]]
 name = "Experience"
-URL = "#experience"
-weight = 2
+URL = "http://localhost:1313#experience"
+weight = 4
 
 #################### default parameters ################################
 [params]
