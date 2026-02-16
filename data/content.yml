@@ -66,7 +66,7 @@ projects:
       content: "Unique take on the on-rails shooter genre where you play as a gunner on a public defence team that has strapped a gun to a local train in order to fight a giant monster attacking your city!"
       video: 'videos/CCBBTrailer.mp4'
       color: 'red'
-      link: https://draginalo.github.io/CCBB
+      link: https://draginalo.github.io/ccbb
 
     - name: Touhou99
       technology: Unity - GameNetworkingSockets - .NET
@@ -74,7 +74,7 @@ projects:
       content: "On a team with 2 other programmers, coded a Touhou inspired LAN multiplayer game where 99 players could join and compete for survival as well as the highest score."
       video: 'videos/ .mp4'
       color: 'yellow'
-      link: https://draginalo.github.io/Touhou99
+      link: https://draginalo.github.io/touhou99
 
     - name: Lurking Below
       technology: Unreal Engine 5
@@ -82,7 +82,7 @@ projects:
       content: "A 3 player multiplayer game where a diver, who roams the sea floor, and an engineer, residing inside a submarine who also has to focus on fixing submarine issues, work together to fix underwater CRAB machines while a sea monster chases them down."
       video: 'videos/ .mp4'
       color: '#00ff99'
-      link: https://draginalo.github.io/LurkingBelow
+      link: https://draginalo.github.io/lurkingbelow
 
 ############################### Skill #################################
 skill:
