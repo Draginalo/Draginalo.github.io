@@ -2,9 +2,10 @@
   <ul class="footer-icons list-inline">
     {{ range $.Site.Params.social }}
       <li>
-        <a href="{{ .link | safeURL }}" target="_blank" rel="noreferrer"
-          ><i class="{{ .icon }} footer-icon fa-3x" aria-label="{{ .alt }}"></i
-        ></a>
+          <a href="{{ .link | safeURL }}" target="_blank" rel="noreferrer">
+              <i class="{{ .icon }} footer-icon fa-3x" aria-label="{{ .alt }}"></i>
+          </a>
+          <!--<img src="{{ .icon }}" />-->
       </li>
     {{ end }}
   </ul>

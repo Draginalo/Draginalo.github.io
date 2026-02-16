@@ -131,15 +131,18 @@ portfolio:
   title: 'OTHER PROJECTS'
   portfolio_list:
     - name: Hugo
+      subtitle: SubStstue
       image: 'images/portfolio/hugo.png'
       url: https://gohugo.io
       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
 
     - name: Hugo Themes
+      subtitle: SubStstuedfdsfs
       image: 'images/portfolio/hugothemes.png'
       url: https://gohugo.io
       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
 
     - name: Just A Design
+      subtitle: SubStstuedddddd
       image: 'images/portfolio/design.png'
       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.

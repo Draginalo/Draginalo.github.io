@@ -1006,7 +1006,7 @@ ul.experience-chart h4 {
 .footer-icons {
   display: inline-flex;
   flex-wrap: wrap;
-  width: 210px;
+  width: 300px;
   justify-content: space-between;
   align-items: center;
   margin-top: 15px;
