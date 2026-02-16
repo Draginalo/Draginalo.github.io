@@ -40,7 +40,7 @@
     </div>
     {{ end }} {{ end }}
     
-    <div class="row experience-skill" style="display: block; margin: 0 auto; width: 100%; margin-bottom: 100px;">
+    <div id="experience" class="experience" style="display: block; padding-top: 80px; width: 100%; margin-bottom: 80px;">
       {{ if .Site.Data.content.experience.enable }} {{ with
       .Site.Data.content.experience }}
       <div>
@@ -51,7 +51,7 @@
             <li class="experience-item" style="--color: {{.color}}">
               <div class="single-experience" style="white-space: pre-line;">
                 <h3>{{ .name | markdownify }}</h3>
-                <span>{{ .company | markdownify }}</span>
+                <span><a href={{.companyLink}}>{{ .company | markdownify }}</a></span>
                 {{ with .duration }}
                 <span>{{ . | markdownify }}</span>
                 {{ end }} {{ with .content }}
@@ -66,7 +66,7 @@
       {{ end }} {{ end }}
     </div>
 
-    <div class="row experience-skill" style="display: block; margin: 0 auto; width: 100%;">
+    <div id="projects" class="projects" style="display: block; padding-top: 100px; width: 100%;">
       {{ if .Site.Data.content.projects.enable }} {{ with
       .Site.Data.content.projects }}
       <div>
@@ -102,7 +102,7 @@
 <!-- =============================
       End About Me
     =============================== -->
-
+<!-- 
 {{ if .Site.Data.content.funfacts.enable }} {{ with .Site.Data.content.funfacts
 }}
 <div class="fun-facts container pt-5">
@@ -114,7 +114,7 @@
   </div>
   {{ end }}
 </div>
-{{ end }} {{ end }}
+{{ end }} {{ end }} -->
 
 <!-- =============================
        Start Portfolio

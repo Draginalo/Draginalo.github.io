@@ -33,6 +33,7 @@ experience:
   experience_list:
     - name: Game Programming Tutor
       company: Champlain College
+      companyLink: https://www.champlain.edu/
       duration: '2025-Current'
       content: Guide students through programming concepts, ranging from data structures and algorithms to graphics programming to game physics, to help facilitate their learning (C++ and C# focused).
       image: 'images/profile.jpg'
@@ -40,6 +41,7 @@ experience:
 
     - name: Startup Full Stack Engineer
       company: EQ Community
+      companyLink: https://www.eq.community/
       duration: '2023-2025'
       content: Collaborated with the CEO to program innovative, human in the loop, AI based (LLMs) recruiting tools. Launched multiple products using Typescript, Node.js, and Vercel, while onboarding multiple new developers. Managed APIs and databases, as well as created analytics tools in python.
       image: 'images/profile.jpg'
@@ -47,6 +49,7 @@ experience:
 
     - name: Programming Intern
       company: Leahy Center for Digital Forensics & Cyber Security
+      companyLink: https://www.champlain.edu/office/leahy-center/
       duration: '2022'
       content: Developed and maintained a seating chart web tool using Javascript on a small flexible team.
       image: 'images/profile.jpg'
