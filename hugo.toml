@@ -40,17 +40,17 @@ weight = 1
 
 [[menu.main]]
 name = "About Me"
-URL = "http://localhost:1313#about"
+URL = "https://draginalo.github.io#about"
 weight = 2
 
 [[menu.main]]
 name = "Projects"
-URL = "http://localhost:1313#projects"
+URL = "https://draginalo.github.io#projects"
 weight = 3
 
 [[menu.main]]
 name = "Experience"
-URL = "http://localhost:1313#experience"
+URL = "https://draginalo.github.io#experience"
 weight = 4
 
 #################### default parameters ################################
