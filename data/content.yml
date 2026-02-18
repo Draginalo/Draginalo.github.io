@@ -125,17 +125,17 @@ portfolio:
   portfolio_list:
     - name: Recursive OpenGL Portals
       subtitle: Recursive OpenGL Portals
-      image: 'images/portfolio/portals.png'
+      image: 'images/openGLPortals.png'
       url: https://gohugo.io
-      description: ident.
+      description: Worked as a team with 2 other programmers to program portals in OpenGL. Programmed rendering of recursive portals that clip objects through them, using matrix transformations and framebuffer management.
 
     - name: Anisotropic A* Road Generation
       subtitle: Anisotropic A* Road Generation
-      image: 'images/portfolio/procGen.png'
+      image: 'images/procGenRoad.png'
       url: https://gohugo.io
-      description: Commodoim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+      description: Performed Anisotropic A* pathfinding on procedural terrain using a heightmap to generate a road that a car will travel on. Steepness of the terrain and road segment length would be taken into account, using an anisotropic grid to find the cheapest path to take. Programmed water erosion that could also be performed on the terrain. Road generation could also be triggered after erosion.
 
     - name: Assembly Object Dodging Game
       subtitle: Assembly Object Dodging Game
-      image: 'images/portfolio/asmProj.png'
-      description: Commodo roident.
+      image: 'images/asmGame.png'
+      description: Programmed a MASM Intel x84_64 windows console object dodging game, leveraging the Windows API. Used asm functions and structs, as well as integrating high level c++ with the Assembly code to use high level libraries.

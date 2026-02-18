@@ -2,11 +2,6 @@
 # Posted by n m, modified by community. See post 'Timeline' for change history
 # Retrieved 2026-02-16, License - CC BY-SA 4.0
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
 
 ######################## default configuration ####################
 baseURL = "https://example.com"
