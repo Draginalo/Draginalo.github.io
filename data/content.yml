@@ -63,6 +63,7 @@ projects:
     - name: Choo Choo Boom Boom
       technology: Unity 
       duration: '2025 - Current'
+      projectType: 'Academic Project - Team Size: 8 -> 14'
       content: "Unique take on the on-rails shooter genre where you play as a gunner on a public defence team that has strapped a gun to a local train in order to fight a giant monster attacking your city!"
       video: 'videos/CCBBTrailer.mp4'
       color: 'red'
@@ -71,6 +72,7 @@ projects:
     - name: Touhou99
       technology: Unity - GameNetworkingSockets - .NET
       duration: 'Jan - May 2025'
+      projectType: 'Academic Project - Team Size: 3'
       content: "On a team with 2 other programmers, coded a Touhou inspired LAN multiplayer game where 99 players could join and compete for survival as well as the highest score."
       video: 'videos/ .mp4'
       color: 'yellow'
@@ -79,6 +81,7 @@ projects:
     - name: Lurking Below
       technology: Unreal Engine 5
       duration: 'Jan - May 2025'
+      projectType: 'Academic Project - Team Size: 8'
       content: "A 3 player multiplayer game where a diver, who roams the sea floor, and an engineer, residing inside a submarine who also has to focus on fixing submarine issues, work together to fix underwater CRAB machines while a sea monster chases them down."
       video: 'videos/ .mp4'
       color: '#00ff99'

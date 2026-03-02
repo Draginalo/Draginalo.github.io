@@ -81,10 +81,11 @@
                 {{ with .duration }}
                 <span>{{ . | markdownify }}</span>
                 {{ end }} 
-                <a href={{.link}}><span style="color: #007bff;">Project Page Link<br></span></a>
+                <span>{{ .projectType | markdownify }}</span>
                 {{ with .content }}
                 <p>{{ . | markdownify }}</p>
                 {{ end }}
+                <a href={{.link}}><span style="color: #007bff;">Read More<br></span></a>
               </div>
               <div class="single-experience" style="display: flex; align-items: center; justify-content: center;">
                 <!--class="img-fluid"-->
