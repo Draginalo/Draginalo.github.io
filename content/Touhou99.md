@@ -1,7 +1,7 @@
 +++
 title="Touhou99"
 layout="project"
-video="/videos/"
+video="/videos/TouhouDemo.mp4"
 technology="Unity - GameNetworkingSockets - .NET" 
 duration="Jan - May 2025"
 
