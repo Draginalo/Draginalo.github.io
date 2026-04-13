@@ -83,7 +83,7 @@ projects:
       duration: 'Jan - May 2025'
       projectType: 'Academic Project - Team Size: 8'
       content: "A 3 player multiplayer game where a diver, who roams the sea floor, and an engineer, residing inside a submarine who also has to focus on fixing submarine issues, work together to fix underwater CRAB machines while a sea monster chases them down."
-      video: 'videos/ .mp4'
+      video: 'videos/LurkingBelow.mp4'
       color: '#00ff99'
       link: https://draginalo.github.io/lurkingbelow
 
