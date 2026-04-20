@@ -17,7 +17,7 @@ hero:
 ########################### About ##################################
 about:
   enable: true
-  image: 'images/profile.jpg'
+  image: 'images/profile.png'
   title: 'Hey there!'
   content: Having a passion for game development, programming, and just gaming in general, I am eager to create gaming experiences for people to enjoy as I pursue a BS in Game Programming at Champlain College, as well as a double minor in Mathematics and CSI. I began studying programming in my junior year of high school and ever since then I have been doing my best to be as knowledgeable and confident in the area as I can be. I am also on the Splatoon Esports team for Champlain College and have a fondness for mountain biking, as well as other outdoor activities. If you have any questions feel free to reach out on [LinkedIn or by email](#contact)!
   button:
@@ -36,7 +36,7 @@ experience:
       companyLink: https://www.champlain.edu/
       duration: '2025-Current'
       content: Guide students through programming concepts, ranging from data structures and algorithms to graphics programming to game physics, to help facilitate their learning (C++ and C# focused).
-      image: 'images/profile.jpg'
+      image: 'images/profile.png'
       color: '#00ff66'
 
     - name: Startup Full Stack Engineer
@@ -44,7 +44,7 @@ experience:
       companyLink: https://www.eq.community/
       duration: '2023-2025'
       content: Collaborated with the CEO to program innovative, human in the loop, AI based (LLMs) recruiting tools. Launched multiple products using Typescript, Node.js, and Vercel, while onboarding multiple new developers. Managed APIs and databases, as well as created analytics tools in python.
-      image: 'images/profile.jpg'
+      image: 'images/profile.png'
       color: '#aa00ff'
 
     - name: Programming Intern
@@ -52,7 +52,7 @@ experience:
       companyLink: https://www.champlain.edu/office/leahy-center/
       duration: '2022'
       content: Developed and maintained a seating chart web tool using Javascript on a small flexible team.
-      image: 'images/profile.jpg'
+      image: 'images/profile.png'
       color: 'blue'
 
 ########################### Projects ##############################
@@ -129,14 +129,23 @@ portfolio:
     - name: Recursive OpenGL Portals
       subtitle: Recursive OpenGL Portals
       image: 'images/openGLPortals.png'
-      url: https://gohugo.io
       description: Worked as a team with 2 other programmers to program portals in OpenGL. Programmed rendering of recursive portals that clip objects through them, using matrix transformations and framebuffer management.
+
+    - name: Depth Based Distortion System
+      subtitle: Depth Based Distortion System
+      image: 'images/depthDistortion.png'
+      description: Inspired by the depth based distortion effects in Metroid Prime 4, I created a system for depth respecting post processing distortion. Used a veriety of rendering techniques including MRT, Blend Ops, render layers, and more.
 
     - name: Anisotropic A* Road Generation
       subtitle: Anisotropic A* Road Generation
       image: 'images/procGenRoad.png'
-      url: https://gohugo.io
       description: Performed Anisotropic A* pathfinding on procedural terrain using a heightmap to generate a road that a car will travel on. Steepness of the terrain and road segment length would be taken into account, using an anisotropic grid to find the cheapest path to take. Programmed water erosion that could also be performed on the terrain. Road generation could also be triggered after erosion.
+
+    - name: 'Global Game Jam 26 - TeaBall: In Space!'
+      subtitle: 'Global Game Jam 26 - TeaBall: In Space!'
+      image: 'images/teaball.png'
+      url: https://masoncrochetiere.itch.io/teaball-in-space
+      description: Worked closely as a team of 4 and successfully created/submitted a game to the GGJ in only 48 hours. We even successfully integrated newly developed hardware that none of us had used before, being OVR’s Omara as they were partnering with our college for the jam, and got a spotlight in their sizzle reel for games that used their device.
 
     - name: Assembly Object Dodging Game
       subtitle: Assembly Object Dodging Game
