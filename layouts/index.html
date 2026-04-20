@@ -19,6 +19,7 @@
         <div class="text-holder">
           <h1>{{ .title | safeHTML }}</h1>
           <p>{{ .content | markdownify | emojify }}</p>
+          <iframe src="https://drive.google.com/file/d/1FBblvXaZtIQ_nVhFXbww4-eHzpucnpfb/preview" width="100%" height="310" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
           {{ if .button.enable }} {{ with .button }}
           <a
             href="{{ .link | relURL }}"
