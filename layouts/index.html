@@ -133,7 +133,7 @@
       </div>
       <ul id="og-grid" class="og-grid">
         {{ range .portfolio_list }} {{ $image := resources.Get .image }}  {{ $parsed_name := replace .name "." "" }}
-        <li style="overflow-wrap: anywhere; width: 400px;">
+        <li style="overflow-wrap: anywhere; max-width: 450px;">
           <text style="white-space: pre-line;" id="description-{{ $parsed_name | urlize }}" class="hidden">
             {{ .description | markdownify }}
           </text>
@@ -141,14 +141,14 @@
             href="{{ .url }}"
             data-largesrc="{{ .image }}"
             data-title="{{ .name }}"
-            data-buttontext="SEE SITE"
+            data-buttontext="SEE PROJECT SITE"
           >
             <img
               src="{{ .image }}"
               alt="{{ $parsed_name }} image"
             />
           </a>
-          <h5>{{ .subtitle }}</h5>
+          <h5 style="padding-top: 10px;">{{ .subtitle }}</h5>
         </li>
         {{ end }}
       </ul>

@@ -134,7 +134,14 @@ portfolio:
     - name: Depth Based Distortion System
       subtitle: Depth Based Distortion System
       image: 'images/depthDistortion.png'
+      url: https://github.com/TristanS-A/DistortionSystem
       description: Inspired by the depth based distortion effects in Metroid Prime 4, I created a system for depth respecting post processing distortion. Used a veriety of rendering techniques including MRT, Blend Ops, render layers, and more.
+
+    - name: Methods For Fluid Simulation Computation Research Study
+      subtitle: Methods For Fluid Simulation Computation Research Study
+      image: 'images/fluid.png'
+      url: https://drive.google.com/file/d/1RoJv6A6BVuh01mSRmbRnKcwFI3JwOzbg/view?usp=sharing
+      description: A research study on how fluid simulations can be optimized with GPU parallelism, using derived linear systems of equations from the Navier Stokes equations. Compared CPU based implementations with GPU based implimentations, leveraging parallelism from compute shaders and fragment shaders
 
     - name: Anisotropic A* Road Generation
       subtitle: Anisotropic A* Road Generation
