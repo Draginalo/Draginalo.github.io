@@ -158,3 +158,9 @@ portfolio:
       subtitle: Assembly Object Dodging Game
       image: 'images/asmGame.png'
       description: Programmed a MASM Intel x84_64 windows console object dodging game, leveraging the Windows API. Used asm functions and structs, as well as integrating high level c++ with the Assembly code to use high level libraries.
+
+    - name: Pen On Paper
+      subtitle: Pen On Paper
+      image: 'images/penOnPaper.png'
+      url: https://tristansa.itch.io/penonpaper
+      description: Programmed and designed a cozy, yet unsettling, game around a core sketching mechanic in Unity, utilizing textures to store sketching data, where sketching objects would progress the main story. Architected a component based event system to trigger story events in relation to the player sketching.
