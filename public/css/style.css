@@ -564,6 +564,7 @@ input:checked + label span:last-child {
   justify-content: center;
   font-weight: bold;
   transition: background 1s;
+  background-color: black;
 }
 
 .menu-normal {
@@ -1263,6 +1264,7 @@ ul.experience-chart h4 {
 }
 
 .hero-image {
+  opacity: 0.4;
   height: 100%;
   overflow: hidden;
 }

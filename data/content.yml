@@ -9,7 +9,7 @@ hero:
     - 'Graphics Programmer'
     - 'Systems Programmer'
 
-  bg_anim: 'videos/BGEffect.mp4'
+  bg_anim: 'videos/HeaderReel.mp4'
   bg_image: 'images/bg.jpg'
   # optional mobile breakpoint background
   # mobile_bg_image: 'images/gus_small.jpg'
@@ -34,7 +34,7 @@ experience:
     - name: Game Programming Tutor
       company: Champlain College
       companyLink: https://www.champlain.edu/
-      duration: '2025-Current'
+      duration: 'Aug 2025- Apr 2026'
       content: Guide students through programming concepts, ranging from data structures and algorithms to graphics programming to game physics, to help facilitate their learning (C++ and C# focused).
       image: 'images/profile.png'
       color: '#00ff66'
