@@ -134,7 +134,7 @@ portfolio:
     - name: Depth Based Distortion System
       subtitle: Depth Based Distortion System
       image: 'images/depthDistortion.png'
-      url: https://github.com/TristanS-A/DistortionSystem
+      url: https://github.com/Draginalo/DistortionSystem
       description: Inspired by the depth based distortion effects in Metroid Prime 4, I created a system for depth respecting post processing distortion. Used a veriety of rendering techniques including MRT, Blend Ops, render layers, and more.
 
     - name: Methods For Fluid Simulation Computation Research Study
