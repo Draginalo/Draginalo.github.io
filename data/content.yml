@@ -131,6 +131,12 @@ portfolio:
       image: 'images/openGLPortals.png'
       description: Worked as a team with 2 other programmers to program portals in OpenGL. Programmed rendering of recursive portals that clip objects through them, using matrix transformations and framebuffer management.
 
+    - name: Vulkan Renderer
+      subtitle: Vulkan Renderer
+      image: 'images/vulkan.png'
+      url: https://github.com/Draginalo/VulkanRenderer
+      description: Programming and architecting my own modern Vulkan renderer, with compatibility with dynamic rendering. Building streamlined and decoupled management of buffers, swap chain, and build systems with CMake. Implemented compute pipelines, MSAA, pipeline changes at runtime, and more. 
+
     - name: Depth Based Distortion System
       subtitle: Depth Based Distortion System
       image: 'images/depthDistortion.png'
