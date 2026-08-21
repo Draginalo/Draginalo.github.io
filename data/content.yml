@@ -19,7 +19,7 @@ about:
   enable: true
   image: 'images/profile.png'
   title: 'Hey there!'
-  content: Having a passion for game development, programming, and just gaming in general, I am eager to create gaming experiences for people to enjoy as I pursue a BS in Game Programming at Champlain College, as well as a double minor in Mathematics and CSI. I began studying programming in my junior year of high school and ever since then I have been doing my best to be as knowledgeable and confident in the area as I can be. I am also on the Splatoon Esports team for Champlain College and have a fondness for mountain biking, as well as other outdoor activities. Please check out my demo reel and if you have any questions or want to connect, feel free to reach out on [LinkedIn or by email](#contact)!
+  content: Having a passion for game development, programming, and just gaming in general, I am eager to create gaming experiences for people to enjoy! Having acquired my BS in Game Programming at Champlain College, as well as a double minor in Mathematics and CSI, I have had the privilege of working on many wonderfully technical projects with wonderful people/teams! I am always continuing to do my best to be as knowledgeable and confident as I can be as a programmer specializing in games. I was also on the Splatoon Esports team for Champlain College for a few years and have a fondness for mountain biking, as well as other outdoor activities. Definitely on the lookout for programming, engineering, or technical design positions in the gaming industry and tech space. If you have any questions or want to connect, feel free to reach out on [LinkedIn or by email](#contact)!
   button:
     enable: true
     label: 'DOWNLOAD MY RESUME'
@@ -170,3 +170,8 @@ portfolio:
       image: 'images/penOnPaper.png'
       url: https://tristansa.itch.io/penonpaper
       description: Programmed and designed a cozy, yet unsettling, game around a core sketching mechanic in Unity, utilizing textures to store sketching data, where sketching objects would progress the main story. Architected a component based event system to trigger story events in relation to the player sketching.
+
+    - name: Networked Proxy Boat Physics - Unreal Engine
+      subtitle: Networked Proxy Boat Physics - Unreal Engine
+      image: 'images/penOnPaper.png'
+      description: While working on (still currently working on) an online multiplayer "friendslop" game that takes place on a massive moving boat, I programmed a proxy boat system to simulate the collision and physics of movable players and objects on a stationary "copy" of the boat, and then translated the visuals to the "real" moving boat. Additionally, forces like gravity are also translated to the proxy boat to allow for objects to still react to the rotation and movement of the "real" boat dispite simulating physics on a flat unmoving surface. The system dynamically switches between the proxy system and the regular physics system depending on if the player or object is sitting on the boat or not. And its all networked!
