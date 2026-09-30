@@ -126,11 +126,6 @@ portfolio:
   enable: true
   title: 'OTHER PROJECTS'
   portfolio_list:
-    - name: Recursive OpenGL Portals
-      subtitle: Recursive OpenGL Portals
-      image: 'images/openGLPortals.png'
-      description: Worked as a team with 2 other programmers to program portals in OpenGL. Programmed rendering of recursive portals that clip objects through them, using matrix transformations and framebuffer management.
-
     - name: Vulkan Renderer
       subtitle: Vulkan Renderer
       image: 'images/vulkan.png'
@@ -143,6 +138,12 @@ portfolio:
       url: https://github.com/Draginalo/DistortionSystem
       description: Inspired by the depth based distortion effects in Metroid Prime 4, I created a system for depth respecting post processing distortion. Used a veriety of rendering techniques including MRT, Blend Ops, render layers, and more.
 
+    - name: Recursive OpenGL Portals
+      subtitle: Recursive OpenGL Portals
+      image: 'images/openGLPortals.png'
+      url: https://github.com/Draginalo/GraphicsPortals
+      description: Worked as a team with 2 other programmers to program portals in OpenGL. Programmed rendering of recursive portals that clip objects through them, using matrix transformations and framebuffer management.
+      
     - name: Methods For Fluid Simulation Computation Research Study
       subtitle: Methods For Fluid Simulation Computation Research Study
       image: 'images/fluid.png'
