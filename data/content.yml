@@ -150,10 +150,14 @@ portfolio:
       url: https://drive.google.com/file/d/1RoJv6A6BVuh01mSRmbRnKcwFI3JwOzbg/view?usp=sharing
       description: A research study on how fluid simulations can be optimized with GPU parallelism, using derived linear systems of equations from the Navier Stokes equations. Compared CPU based implementations with GPU based implimentations, leveraging parallelism from compute shaders and fragment shaders
 
-    - name: Anisotropic A* Road Generation
-      subtitle: Anisotropic A* Road Generation
-      image: 'images/procGenRoad.png'
-      description: Performed Anisotropic A* pathfinding on procedural terrain using a heightmap to generate a road that a car will travel on. Steepness of the terrain and road segment length would be taken into account, using an anisotropic grid to find the cheapest path to take. Programmed water erosion that could also be performed on the terrain. Road generation could also be triggered after erosion.
+    - name: Networked Proxy Boat Physics - Unreal Engine
+      subtitle: Networked Proxy Boat Physics - Unreal Engine
+      image: 'images/proxy.png'
+      description: While working on an online multiplayer "friendslop" game that takes place on a massive moving boat, I programmed a proxy boat system to simulate the collision and physics of movable players and objects on a stationary "copy" of the boat, and then translated the visuals to the "real" moving boat. Additionally, forces like gravity are also translated to the proxy boat to allow for objects to still react to the rotation and movement of the "real" boat dispite simulating physics on a flat unmoving surface. The system dynamically switches between the proxy system and the regular physics system depending on if the player or object is sitting on the boat or not. And it's all networked!
+
+    - name: The Oxfield Anomaly - Unreal Engine
+      subtitle: The Oxfield Anomaly - Unreal Engine
+      description: Solo Unreal Engine game dev project (still under development) revolving around the player needing to keep a 4th dimensional entity from escaping a room, accomplished through monitoring the room(s) for space-time distortions and fixing them while managing other responsibilities/distractions. Programmed analogue controls such as levers, buttons, sliders, and dials often controlled by mouse, that can be used to interact with and navigate options on 3D widgets. Utilized scene capture components and linear algebra to render window views of rooms (similar to portals). Designing gameplay interactions and mechanics, focusing on depth vs complexity and maintaining appropriate game flow. Art asset creation (Blender), including models, animations, and materials.
 
     - name: 'Global Game Jam 26 - TeaBall: In Space!'
       subtitle: 'Global Game Jam 26 - TeaBall: In Space!'
@@ -172,7 +176,7 @@ portfolio:
       url: https://tristansa.itch.io/penonpaper
       description: Programmed and designed a cozy, yet unsettling, game around a core sketching mechanic in Unity, utilizing textures to store sketching data, where sketching objects would progress the main story. Architected a component based event system to trigger story events in relation to the player sketching.
 
-    - name: Networked Proxy Boat Physics - Unreal Engine
-      subtitle: Networked Proxy Boat Physics - Unreal Engine
-      image: 'images/proxy.png'
-      description: While working on (still currently working on) an online multiplayer "friendslop" game that takes place on a massive moving boat, I programmed a proxy boat system to simulate the collision and physics of movable players and objects on a stationary "copy" of the boat, and then translated the visuals to the "real" moving boat. Additionally, forces like gravity are also translated to the proxy boat to allow for objects to still react to the rotation and movement of the "real" boat dispite simulating physics on a flat unmoving surface. The system dynamically switches between the proxy system and the regular physics system depending on if the player or object is sitting on the boat or not. And it's all networked!
+    - name: Anisotropic A* Road Generation
+      subtitle: Anisotropic A* Road Generation
+      image: 'images/procGenRoad.png'
+      description: Performed Anisotropic A* pathfinding on procedural terrain using a heightmap to generate a road that a car will travel on. Steepness of the terrain and road segment length would be taken into account, using an anisotropic grid to find the cheapest path to take. Programmed water erosion that could also be performed on the terrain. Road generation could also be triggered after erosion.
