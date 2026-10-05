@@ -157,6 +157,7 @@ portfolio:
 
     - name: The Oxfield Anomaly - Unreal Engine
       subtitle: The Oxfield Anomaly - Unreal Engine
+      image: 'images/anom.png'
       description: Solo Unreal Engine game dev project (still under development) revolving around the player needing to keep a 4th dimensional entity from escaping a room, accomplished through monitoring the room(s) for space-time distortions and fixing them while managing other responsibilities/distractions. Programmed analogue controls such as levers, buttons, sliders, and dials often controlled by mouse, that can be used to interact with and navigate options on 3D widgets. Utilized scene capture components and linear algebra to render window views of rooms (similar to portals). Designing gameplay interactions and mechanics, focusing on depth vs complexity and maintaining appropriate game flow. Art asset creation (Blender), including models, animations, and materials.
 
     - name: 'Global Game Jam 26 - TeaBall: In Space!'
